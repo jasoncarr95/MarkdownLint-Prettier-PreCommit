@@ -1,0 +1,24 @@
+# Archived Items from when using Chronosync for syncing folders
+_Archived Items/
+
+# Don't use.. this is for awesome prompts sync
+cache_model/chatgpt_prompts.json
+
+# Application's log file
+ChatGPT.log
+
+# Dependencies
+node_modules/
+
+# to exclude Obsidian's settings (including plugin and hotkey configurations)
+# .obsidian/
+
+# OR only to exclude workspace cache
+.obsidian/workspace.json
+.obsidian/plugins
+Notes-ChatGPT/.obsidian/workspace.json
+Notes-ChatGPT/.obsidian/plugins
+
+# Add below lines to exclude OS settings and caches
+.trash/
+.DS_Store

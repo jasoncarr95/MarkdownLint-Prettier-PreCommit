@@ -1,0 +1,22 @@
+{
+  "name": "markdownlint-prettier-precommit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "lint:fix": "markdownlint-cli2-fix \"**/*.md\" \"#node_modules\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "fix": "npm run lint:fix && npm run format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint": "^0.27.0",
+    "markdownlint-cli2": "^0.6.0",
+    "prettier": "^2.8.5"
+  }
+}
